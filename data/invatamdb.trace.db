@@ -1,0 +1,6 @@
+2024-07-26 19:11:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PETS" not found (this database is empty); SQL statement:
+SELECT PETS.ID, PETS."TYPE", PETS."NAME", PETS.SURNAME, PETS.IMAGE_LINK, PETS.AGE, PETS.VACCINE, PETS.BIO FROM PETS [42104-214]
+2024-07-26 19:13:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PETS" not found; SQL statement:
+SELECT PETS.ID, PETS."TYPE", PETS."NAME", PETS.SURNAME, PETS.IMAGE_LINK, PETS.AGE, PETS.VACCINE, PETS.BIO FROM PETS [42102-214]
